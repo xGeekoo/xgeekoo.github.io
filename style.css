@@ -41,6 +41,15 @@ body {
   line-height: 1.2;
 }
 
+a {
+  color: inherit;
+  transition: 0.3s color;
+}
+
+a:is(:hover, :focus) {
+  color: #14249b;
+}
+
 @keyframes switch-color {
   to {
     background-position: right;
